@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 import "components/Appointment/styles.scss";
 
 export default function Confirm(props) {
