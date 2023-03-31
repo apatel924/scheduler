@@ -4,11 +4,19 @@ This is a single page web application built using React and was tested using Sto
 
 ## Web Page Walk-through
 
+Scheduler Main page
+
 !["Scheduler Main Page"](https://github.com/apatel924/scheduler/blob/master/docs/scheduler-main-page.png)
+
+Schedule an appointment
 
 !["Scheduler add appointment"](https://github.com/apatel924/scheduler/blob/master/docs/Scheduler-add-appt.png)
 
+Appointment added
+
 !["Scheduler added appointment"](https://github.com/apatel924/scheduler/blob/master/docs/Scheduler-added-appt.png)
+
+Appointment delete and edit 
 
 !["Scheduler delete appointment"](https://github.com/apatel924/scheduler/blob/master/docs/scheduler-delete-appt.png)
 
