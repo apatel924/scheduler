@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Application from "../components/Application";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function useApplicationData() {
