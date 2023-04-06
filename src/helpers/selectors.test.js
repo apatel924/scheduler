@@ -96,7 +96,7 @@ test("getInterviewersForDay returns an empty array when the day is not found", (
 });
 
 test("getInterview returns an object with the interviewer data", () => {
-  const result = getInterview(state, state.appointments["2"].interview);
+  const result = getInterview(state, state.appointments["3"].interview);
   expect(result).toEqual(
     expect.objectContaining({
       student: expect.any(String),
