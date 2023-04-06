@@ -77,7 +77,7 @@ test("getInterviewersForDay returns an array", () => {
 
 test("getInterviewersForDay returns an array with a length matching the number of interviewers for that day", () => {
   const result = getInterviewersForDay(state, "Monday");
-  expect(result.length).toEqual(2);
+  expect(result.length).toEqual(3);
 });
 
 test("getInterviewersForDay returns an array containing the correct interviewer objects", () => {
@@ -96,7 +96,7 @@ test("getInterviewersForDay returns an empty array when the day is not found", (
 });
 
 test("getInterview returns an object with the interviewer data", () => {
-  const result = getInterview(state, state.appointments["3"].interview);
+  const result = getInterview(state, state.appointments["2"].interview);
   expect(result).toEqual(
     expect.objectContaining({
       student: expect.any(String),

@@ -24,6 +24,10 @@ Appointment delete and edit
 
 Install dependencies with `npm install`.
 
+Scheduler API server: https://github.com/apatel924/scheduler-api
+
+Run scheduler API proxy server in conjunction to the main server to load full data.
+
 ## Running Webpack Development Server
 
 ```sh
